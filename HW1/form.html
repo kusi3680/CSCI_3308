@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>About Me</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      </head>
+      <body>
+		<nav class="navbar navbar-expand-sm bg-dark">
+
+			<!-- Links -->
+			
+			
+				<ul class="navbar-nav">
+					<li class="nav-item">
+					  <a class="nav-link" href="../CSCI3308-HW1-master/mypage_bootstrap.html">Home</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="../CSCI3308-HW1-master/projects.html">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../CSCI3308-HW1-master/form.html">Forms</a>
+					  </li>
+					<div class="col-xs-6">
+						<li class="topnav-right">
+							<a class="navbar-brand" href="https://github.com/kusi3680">
+								<img src="data:image/png;base64,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" alt="Logo" style="width:40px;">
+							</a>
+						</li>
+					</div>
+				  </ul>
+		  </nav>
+      	<h1>Add New Interest</h1>
+      	<form>
+			<div class="form-group">
+				<label for="articleTitle"><h4>Interest Name</h4></label>
+				<input type="text" class="form-control" id="articleTitle" placeholder="Title">
+			</div>
+
+      		<div class="form-group">
+      			<label for="articleText"><h4>Talk about Interest</h4></label>
+      			<textarea class="form-control" id="articleText" rows="10"></textarea>
+			  </div>
+
+			<div class="form-row">
+				<div class="col">
+					<label for="uploadFiles"><h5>Upload Local Image:</h5></label><br>
+					<input type="file" id="uploadFiles" name="uploadFiles">
+				</div>
+				<div class="col">
+					<label for="pages"><h5>Select Tweets to be Displayed:</h5></label>
+				  <select class="form-control" id="pages">
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+				  </select>
+				</div>
+			</div>
+      		<div class="form-row">
+      			<div class="col">
+      				<h7>On a scale of 1-5, how interested in this are you?</h7><br>
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="checkbox" id="selectTags2" value="option2">
+					  <label class="form-check-label" for="selectTags2">1</label>
+					</div>
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="checkbox" id="selectTags3" value="option3">
+					  <label class="form-check-label" for="selectTags3">2</label>
+					</div>
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="checkbox" id="selectTags4" value="option4">
+					  <label class="form-check-label" for="selectTags4">3</label>
+					</div>
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="checkbox" id="selectTags5" value="option5">
+					  <label class="form-check-label" for="selectTags5">4</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" id="selectTags5" value="option5">
+						<label class="form-check-label" for="selectTags5">5</label>
+					  </div>
+      			</div>
+      		</div>
+      		<h4>Login to Finish Submitting</h4>
+      		<div class="form-row">
+      			<div class="col">
+      				<input type="text" class="form-control" id="username" placeholder="Username">
+      			</div>
+      			<div class="col">
+      				<input type="password" class="form-control" id="pword" placeholder="Password">
+      			</div>
+      		</div>
+      		<div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="rememberMe">
+			  <label class="form-check-label" for="rememberMe">
+				Remember me
+			  </label>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+      	</form>
+      </body>
+     </html>
